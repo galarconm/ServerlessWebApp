@@ -41,7 +41,7 @@ This repository contains a CloudFormation YAML template to deploy a three-tier w
 - AWS account with permissions for CloudFormation, EC2, RDS, and related services.
 
 ## Architecture Diagram
-![Serverless Web App Diagram](assets/ServerlessWebApp2.png)
+![Serverless Web App Diagram](assests/ServerlessWebApp2.png)
 
 ## License
 This project is licensed under the MIT License. See `LICENSE` for details.
