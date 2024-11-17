@@ -1,0 +1,227 @@
+body {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f8;
+    }
+  
+    
+    /* Navbar */
+  .navbar {
+    background-color: #32619B;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 15px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Main Section */
+  .main-content {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    background-color: #f4f4f8;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .image-container img {
+    max-width: 700px;
+    max-height: 480px;
+    border-radius: 8px;
+  }
+  
+  .intro-text h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  .intro-text p {
+    font-size: 1.3rem;
+    color: #666;
+    margin-top: 0.5rem;
+    line-height: 1.6;
+  }
+  .intro-bio p {
+    font-size: 1.1rem; /* Adjust the font size */
+    line-height: 1.6; /* Adjust the line height for better readability */
+    color: #333; /* Set the text color */
+    margin: 1rem 0; /* Add space above and below the paragraph */
+    padding: 1rem; /* Add padding inside the paragraph */
+    background-color: #f9f9f9; /* Optional: Add a background color */
+    border-left: 4px solid #32619B; /* Optional: Add a left border for emphasis */
+    border-right: 4px solid #32619B; /* Optional: Add a left border for emphasis */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    width: 50%;
+    margin-bottom: 0px;
+  }
+  
+  /* Timeline styling */
+  .item {
+    margin-bottom: 1.5em;
+    /* center the timeline text in the page */
+    margin-left: 50%;
+    
+  }
+  
+  .row {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .year {
+    width: 20%; /* Adjust to control space for the year */
+    font-weight: bold;
+    color: #333;
+    text-align: right;  
+    margin-right: 2%; /* Spacing between year and degree */
+  }
+  
+  .degree {
+    width: 75%; /* Adjust based on desired space for degree section */
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .location, .description {
+    margin-left: 22%; /* Aligns under the degree text */
+    color: #666;
+    font-size: 0.95em;
+    width: 60%;
+  }
+  
+  
+  hr{
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 2rem 0;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+    
+    section {
+      padding: 2rem;
+      margin-bottom: 1rem; /* Add space to the bottom of each section */
+    }
+    
+    /* Projects */
+    .project {
+      border: 1px solid #ddd;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      background: #f9f9f9;
+    }
+    
+    .project img {
+      width: 65%; /* Set the width of the image */ 
+      height: auto; 
+      display: block;
+      margin-left: auto; /* Center image */
+      margin-right: auto; /* Center image */ 
+      object-fit: cover; /* Ensure the image covers the specified dimensions */ 
+        
+    }
+  
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background: #f9f9f9;
+    }
+  
+  form fieldset {
+      border: none;
+      padding: 0;
+  }
+   
+  
+  label {
+      display: block; /* Block display */
+      margin: 0.5rem 0; /* Margin top and bottom */
+    }
+  
+  
+  /*Contact Form*/ 
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    margin: 5px 0 ; /* Margin top */
+    width: 100%;
+    min-height: 2em; 
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px;
+    box-sizing: border-box;
+   
+  }
+  
+  input[type="submit"] {
+      display: block;
+      width: 100%;
+      padding: 0.4rem;
+      border: none;
+      border-radius: 5px;
+      background: #32619B;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      min-width: 300px;
+      box-sizing: border-box;
+  }
+  
+  form input[type="submit"]:hover {
+    background: #555;
+  }
+  
+  .contact-info {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    margin-bottom: px;
+  }
+  
+  .contact-info h3 {
+    margin-top: 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    vertical-align: baseline;
+    text-align: center;
+    color: #666;
+  }
