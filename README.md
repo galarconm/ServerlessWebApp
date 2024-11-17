@@ -14,6 +14,13 @@ This repository contains a CloudFormation YAML template to deploy a three-tier w
 - **Cost-Efficient**: Pay only for what you use, thanks to AWS's pay-as-you-go model.
 - **Secure**: Enforced HTTPS using CloudFront.
 
+## File Structure
+
+- **frontend/**: Contains the HTML, CSS, and JavaScript files for the user interface.
+- **backend/**: Python scripts for AWS Lambda functions.
+- **assets/**: Images and static files.
+- **docs/**: Supporting documentation (e.g., resumes).
+
 ## How to Use
 1. Clone the Repository
 2. Frontend Deployment:
@@ -34,7 +41,7 @@ This repository contains a CloudFormation YAML template to deploy a three-tier w
 - AWS account with permissions for CloudFormation, EC2, RDS, and related services.
 
 ## Architecture Diagram
-(Optionally, include a network diagram of the architecture here.)
+![Serverless Web App Diagram](assets/ServerlessWebApp2.png)
 
 ## License
 This project is licensed under the MIT License. See `LICENSE` for details.
